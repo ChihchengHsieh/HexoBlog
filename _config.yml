@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Richard Tech
+title: Chicheng's Tech
 subtitle: Tech Play Ground
 description: ""
 keywords: Richard
@@ -94,70 +94,9 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: next
 
-scheme: Muse
-
-menu:
-  home: /|| home
-  archives: /archives/|| history
-  categories: /categories/|| list
-  tags: /tags/|| tags
-  #schedule: /schedule/ || calendar
-  #sitemap: /sitemap.xml || sitemap
-  #commonweal: /404/ || heartbeat
-
-highlight_theme: night
-
-darkmode: true
-
-font:
-  enable: true
-
-  # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
-  host:
-
-  # Global font settings used on <body> element.
-  global:
-    # external: true will load this font family from host.
-    external: true
-    family: Lato
-
-  # Font settings for Headlines (h1, h2, h3, h4, h5, h6)
-  # Fallback to `global` font settings.
-  headings:
-    external: true
-    family:
-
-  # Font settings for posts
-  # Fallback to `global` font settings.
-  posts:
-    external: true
-    family:
-
-  # Font settings for Logo
-  # Fallback to `global` font settings.
-  # The `size` option use `px` as unit
-  logo:
-    external: true
-    family:
-    size:
-
-  # Font settings for <code> and code blocks.
-  codes:
-    external: true
-    family:
-    size:
-
-social_icons:
-  enable: true
-  GitHub: github
-
 social:
   GitHub: https://github.com/ChihchengHsieh
 
-avatar: https://avatars0.githubusercontent.com/u/37566901?s=460&u=6470cf904f049c5a33f779091a8fea004c338621&v=4
-
-sidebar:
-  display: post
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:

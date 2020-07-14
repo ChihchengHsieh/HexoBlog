@@ -4,27 +4,29 @@ tags:
     - Flutter
     - .NET
     - Stripe
-categories: App
+categories: App Development
 description: The stripe implementation on .NET and flutter. Payment methods includes Native Pay and Credit Card.
 photos:
-    - https://miro.medium.com/max/770/1*objISxTIwmg6Yhm2A2aVgQ.png
+    - https://stripe.com/img/v3/home/social.png
 ---
 
 <!--more-->
 
+## Payment Methods
+
 Two typs of the payment method we will be using in our App. 
 - [x] Credit Card
 - [x] Native
+- [ ] WeChat
+- [ ] Ali
+
+## Process
 
 
 #### Payment Process for Credit Card
 ![](https://miro.medium.com/max/770/1*objISxTIwmg6Yhm2A2aVgQ.png)
 
-[[Listen to WebHook]](https://stripe.com/docs/webhooks/build)
-[[Stripe Doc]](https://stripe.com/docs)
-[[Stripe API]](https://stripe.com/docs/api)
-[[Clear Elaboration]](https://medium.com/@hamza39460/stripe-payments-in-flutter-cb2f9cb053d1)
-[[Clear Elaboration II]](https://medium.com/flutter-community/build-a-marketplace-in-your-flutter-app-and-accept-payments-using-stripe-and-firebase-72f3f7228625)
+
 
 The **process** can be simplified to these steps in our app:
 - Creating `Order` instance in the frontend, and sending the request to backend for creating this `Order` in the database.
@@ -91,17 +93,22 @@ if (stripeEvent.Type == stripe.Events.PaymentIntentSucceeded)
 ```
 
 #### Payment Process for Native Pay
-
+Pending
 
 
 ## Dependencies
 
-**Dart Packages**:
+#### Dart Packages:
 - [[stripe_payment]](https://pub.dev/packages/stripe_payment)
 
-**NuGet**:
+#### NuGet:
 - [[Strip.net]](https://github.com/stripe/stripe-dotnet)
 
 
------------------------
-##### Ref
+## Ref
+
+- [[Listen to WebHook]](https://stripe.com/docs/webhooks/build)
+- [[Stripe Doc]](https://stripe.com/docs)
+- [[Stripe API]](https://stripe.com/docs/api)
+- [[Clear Elaboration]](https://medium.com/@hamza39460/stripe-payments-in-flutter-cb2f9cb053d1)
+- [[Clear Elaboration II]](https://medium.com/flutter-community/build-a-marketplace-in-your-flutter-app-and-accept-payments-using-stripe-and-firebase-72f3f7228625)
