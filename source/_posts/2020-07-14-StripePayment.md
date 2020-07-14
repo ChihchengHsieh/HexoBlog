@@ -12,7 +12,7 @@ photos:
 
 <!--more-->
 
-## Payment Methods
+# Payment Methods
 
 Two typs of the payment method we will be using in our App. 
 - [x] Credit Card
@@ -20,10 +20,10 @@ Two typs of the payment method we will be using in our App.
 - [ ] WeChat
 - [ ] Ali
 
-## Process
+# Process
 
 
-#### Payment Process for Credit Card
+## Payment Process for Credit Card
 ![](https://miro.medium.com/max/770/1*objISxTIwmg6Yhm2A2aVgQ.png)
 
 
@@ -92,21 +92,20 @@ if (stripeEvent.Type == stripe.Events.PaymentIntentSucceeded)
 }
 ```
 
-#### Payment Process for Native Pay
+## Payment Process for Native Pay
 Pending
 
 
-## Dependencies
+# Dependencies
 
-#### Dart Packages:
+## Dart Packages:
 - [[stripe_payment]](https://pub.dev/packages/stripe_payment)
 
-#### NuGet:
+## NuGet:
 - [[Strip.net]](https://github.com/stripe/stripe-dotnet)
 
 
-## Ref
-
+# Ref
 - [[Listen to WebHook]](https://stripe.com/docs/webhooks/build)
 - [[Stripe Doc]](https://stripe.com/docs)
 - [[Stripe API]](https://stripe.com/docs/api)
