@@ -2,6 +2,7 @@
 title: Dubugging Azure Server
 tags:
     - .NET
+    - Azure
 categories: App Development 
 photos:
     - https://miro.medium.com/fit/c/1838/551/1*uhSX5djhrWiguXoWsW_lEw.png
