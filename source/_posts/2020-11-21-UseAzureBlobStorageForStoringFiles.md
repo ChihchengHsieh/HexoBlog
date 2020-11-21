@@ -118,8 +118,7 @@ photos:
 
 ```
 5. 在前端加上取得SAS的代碼, 並將SAS存取於客戶端中, 若SAS過期則重新取得一次; 並加上上傳bytes的代碼:
-```flutter
-
+```dart
   String _sasToken;
   DateTime _sasExpireAt;
 
